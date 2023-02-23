@@ -1,0 +1,11 @@
+/* h1 is our selector, color is our property, and darkolivegreen is our value. */
+h1 {color:darkolivegreen;}
+/* This is font size by % - 150% or 1.5x of default size. We have also group selected both the header and paragraph. */
+p, h1 {
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+p a {color:limegreen;}
+#firstlink {color:seagreen;}
+.redtext {color:red;}
