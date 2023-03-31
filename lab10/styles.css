@@ -70,10 +70,9 @@ div {padding: 10px;}
 
 .contact2 {flex-wrap: wrap;}
 
-@media only screen and (max-width: 601px)
+@media only screen and (max-width: 601px) {
     nav a {display: 100%;
         display: block;
         padding: 10px;}
-
-@media only screen and (max-width: 601px)
-    span {display: none;}
+    span {display: none;} 
+    }
