@@ -72,5 +72,6 @@ div {padding: 10px;}
 
 @media only screen and (max-width: 701px)
     nav a {display: 100%;
-        display: block;}
+        display: block;
+        padding: 10px;}
     span {display: none;}
