@@ -1,0 +1,221 @@
+/* general styles */
+body 
+    {
+        background-color: #131313;
+        color: #FFFFFF;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: large;
+        margin-inline-start: 20px;
+        margin-inline-end: 20px;
+        margin: 30px;
+    }
+
+.index {
+    background-image: url(images/banner2.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: contain;
+}
+
+.index h2 {color: #f3ffa3;}
+
+h1 {
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+}
+
+h2 {margin-bottom: 50px;
+    font-family: 'Rubik', sans-serif;
+    }
+
+a:link {color: #131313;}
+a:hover {color: #f3ffa3;}
+a:visited {color:#f5ff6d;}
+
+/* nav styles */
+nav {
+        padding: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: right;
+        font-family: 'Rubik', sans-serif;
+        gap: 5px;
+    }
+
+@media only screen and (max-width: 801px) {
+    nav {display: 100%;
+        padding: 10px;
+        font-size: smaller;
+        flex-direction:column;
+        text-align: right;
+        }
+    nav span {display: none;}
+    }
+
+nav a:link {color:#FFFFFF;}
+nav a:hover {
+                color:#f3ffa3;
+                background-color: #131313;
+            }
+nav a:visited {color: #f3ffa3}
+
+/* index image styles*/
+
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: #131313;
+        color: white;
+        font-size: medium;
+        max-width:max-content;
+        }
+    .icons {
+        scale: 70%;
+        padding: 0px;
+        margin: 0px;
+        color: #fff;
+        }
+    .statistics {
+        padding-top: 275px;
+        font-size: small;
+        display: grid;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
+    .statistics span {
+        font-size: medium;
+    }
+    }
+
+@media only screen and (min-width: 801px) {
+    .statistics {
+        padding-top: 720px;
+    }
+}
+
+/*index body*/
+.statistics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: large;
+    text-align: center;
+    padding-inline: 40px;
+    column-gap: 40px;
+    row-gap: 15px;
+    display: -ms-inline-grid;
+    padding-top: auto;
+}
+
+.statistics span {
+    font-size: xx-large;
+    padding: 50px;
+    margin: 20px;
+}
+
+.statistics div {
+    padding: 20px;
+}
+
+.leadgen, .conversion, .accounts {
+    flex: 1;
+    text-align: center;
+    border:#FFFFFF;
+    border: 30px;
+    padding-inline: 30px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: #131313;
+}
+
+.intro {padding-bottom: 30px;}
+
+.title {padding-top: 5%;}
+
+/* icons */
+.icons {display: flex;
+    justify-content: center;
+    height: 30%;
+    width: 90%;
+    justify-content: space-between;
+    }
+
+.clients, .growth, .product {
+    flex: 1;
+    background-color:#131313;
+    margin: 20px;
+    font-size: larger;
+    text-align: center;
+ }
+
+.icons img {
+    filter: invert(100%);
+    max-height: 40px;
+    text-align: center;
+    }
+
+/* for PM & sales pages */
+.pm, .sales {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px;
+    flex-wrap: wrap;
+    column-gap: 15px;
+  }
+
+  .pm {padding: 75px;
+  }
+  
+  article {
+    padding: 20px;
+    flex: 1; 
+    flex-direction: column;
+    border: 5px;
+    border-color: #000;
+  }
+  
+  article h2 {
+    margin-bottom: 10px;
+  }
+  
+  article p {
+    margin-bottom: 20px;
+  }
+  
+  article img {
+    position: relative;
+    max-width: 100%;
+    height:max-content;
+    margin-bottom: 20px;
+    display: table;
+  }
+  
+  .c2c {height: auto;
+    max-width: 65%;
+    justify-content: center;
+  }
+
+  .box {
+    flex: 3;
+    border:#f3ffa3;
+    border-width: 2px;
+    border-style: dotted;
+    height: 590px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+  }
+
+  /* footer */
+  footer {
+    color: #f3ffa3;
+    display: flex;
+    padding-top: 100px;
+    font-size: small;
+    justify-content: right;
+  }
+  
