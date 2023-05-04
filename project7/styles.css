@@ -31,7 +31,7 @@ h2 {margin-bottom: 50px;
 
 a:link {color: #131313;}
 a:hover {color: #f3ffa3;}
-a:visited {color:#f5ff6d;}
+a:visited {color:#131313;}
 
 /* nav styles */
 nav {
@@ -262,7 +262,8 @@ nav a:visited {color: #f3ffa3}
         width: 1px;
         height: 1px;
         overflow: hidden;
-        color:#FFFFFF
+        background-color: #FFFFFF;
+        color: #000;
         }
 
     .skip:focus {
@@ -270,3 +271,5 @@ nav a:visited {color: #f3ffa3}
         width: auto;
         height: auto;
         }
+    
+   
