@@ -59,8 +59,8 @@ nav {
         justify-content: center;
         text-align: center;
         }
+    .box {height: 400;}
     }
-
 nav a:link {color:#FFFFFF;}
 nav a:hover {
                 color:#f3ffa3;
@@ -209,7 +209,7 @@ nav a:visited {color: #f3ffa3}
   .box {
     flex: 3;
     border:#f3ffa3;
-    border-width: 2px;
+    border-width: 3px;
     border-style: dotted;
     height: 600px;
     justify-content: center;
