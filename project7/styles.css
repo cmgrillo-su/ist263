@@ -61,6 +61,7 @@ nav {
         }
     .box {height: 400;}
     }
+
 nav a:link {color:#FFFFFF;}
 nav a:hover {
                 color:#f3ffa3;
@@ -93,6 +94,11 @@ nav a:visited {color: #f3ffa3}
     }
     .statistics span {
         font-size: medium;
+    }
+    .box {
+        display: block;
+        flex-direction: column;
+        padding: 20px;
     }
     }
 
