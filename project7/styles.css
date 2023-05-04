@@ -211,11 +211,33 @@ nav a:visited {color: #f3ffa3}
   }
 
   /* footer */
+
   footer {
     color: #f3ffa3;
-    display: flex;
     padding-top: 100px;
     font-size: small;
-    justify-content: right;
+    display: flex;
+    justify-content: space-between;
   }
   
+  .resume {
+    position:relative;
+    flex-direction: column;
+    justify-content: left;
+    display: flex;
+  }
+
+  .qoute {
+    justify-content: right;
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+  .resume a {
+    color: #FFFFFF;
+    font-weight: bolder;
+    }
+
+    .resume a:hover {
+        color: #f3ffa3;
+        }
