@@ -204,7 +204,7 @@ nav a:visited {color: #f3ffa3}
     border:#f3ffa3;
     border-width: 2px;
     border-style: dotted;
-    height: 590px;
+    height: fit-content;
     justify-content: center;
     align-items: center;
     border-radius: 5%;
