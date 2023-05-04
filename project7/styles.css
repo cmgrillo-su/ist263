@@ -54,6 +54,11 @@ nav {
         text-align: right;
         }
     nav span {display: none;}
+    footer {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        }s
     }
 
 nav a:link {color:#FFFFFF;}
