@@ -262,6 +262,7 @@ nav a:visited {color: #f3ffa3}
         width: 1px;
         height: 1px;
         overflow: hidden;
+        color:#FFFFFF
         }
 
     .skip:focus {
